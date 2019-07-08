@@ -1,0 +1,14 @@
+site_name: Health Services Platform (HSP) Marketplace
+theme: readthedocs
+
+nav:
+- Health Services Platform (HSP) Marketplace : 'index.md'
+- License Information : 'license.md'
+- Executive Summary : 'ExecutiveSummary.md'
+- Core Concepts :  'CoreConcepts.md'      
+- Digital Rights Management :  'DigitalRightsManagement.md'      
+- Functional Infrastructure Model : 'FunctionalInfrastructureModel.md'  
+- Reference implementation : 'referenceimplementation.md'
+- Standards : 'referenceStandards.md'    
+- Model Quck Reference : 'modelquickreference.md'        
+- API : 'api.md'
