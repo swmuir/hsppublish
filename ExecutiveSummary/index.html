@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<!--[if IE 8]><html class="no-js lt-ie9" lang="en" > <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en" > <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  
+  <link rel="shortcut icon" href="../img/favicon.ico">
+  <title>Executive Summary - Health Services Platform (HSP) Marketplace</title>
+  <link href='https://fonts.googleapis.com/css?family=Lato:400,700|Roboto+Slab:400,700|Inconsolata:400,700' rel='stylesheet' type='text/css'>
+
+  <link rel="stylesheet" href="../css/theme.css" type="text/css" />
+  <link rel="stylesheet" href="../css/theme_extra.css" type="text/css" />
+  <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/github.min.css">
+  
+  <script>
+    // Current page data
+    var mkdocs_page_name = "Executive Summary";
+    var mkdocs_page_input_path = "ExecutiveSummary.md";
+    var mkdocs_page_url = null;
+  </script>
+  
+  <script src="../js/jquery-2.1.1.min.js" defer></script>
+  <script src="../js/modernizr-2.8.3.min.js" defer></script>
+  <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js"></script>
+  <script>hljs.initHighlightingOnLoad();</script> 
+  
+</head>
+
+<body class="wy-body-for-nav" role="document">
+
+  <div class="wy-grid-for-nav">
+
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side stickynav">
+      <div class="wy-side-nav-search">
+        <a href=".." class="icon icon-home"> Health Services Platform (HSP) Marketplace</a>
+        <div role="search">
+  <form id ="rtd-search-form" class="wy-form" action="../search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" title="Type search term here" />
+  </form>
+</div>
+      </div>
+
+      <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+	<ul class="current">
+	  
+          
+            <li class="toctree-l1">
+		
+    <a class="" href="..">Health Services Platform (HSP) Marketplace</a>
+	    </li>
+          
+            <li class="toctree-l1">
+		
+    <a class="" href="../license/">License Information</a>
+	    </li>
+          
+            <li class="toctree-l1 current">
+		
+    <a class="current" href="./">Executive Summary</a>
+    <ul class="subnav">
+            
+    <li class="toctree-l2"><a href="#a-call-for-executable-service-portability">A Call For Executable Service Portability</a></li>
+    
+
+    </ul>
+	    </li>
+          
+            <li class="toctree-l1">
+		
+    <a class="" href="../CoreConcepts/">Core Concepts</a>
+	    </li>
+          
+            <li class="toctree-l1">
+		
+    <a class="" href="../DigitalRightsManagement/">Digital Rights Management</a>
+	    </li>
+          
+            <li class="toctree-l1">
+		
+    <a class="" href="../FunctionalInfrastructureModel/">Functional Infrastructure Model</a>
+	    </li>
+          
+            <li class="toctree-l1">
+		
+    <a class="" href="../referenceimplementation/">Reference implementation</a>
+	    </li>
+          
+            <li class="toctree-l1">
+		
+    <a class="" href="../referenceStandards/">Standards</a>
+	    </li>
+          
+            <li class="toctree-l1">
+		
+    <a class="" href="../modelquickreference/">Model Quck Reference</a>
+	    </li>
+          
+            <li class="toctree-l1">
+		
+    <a class="" href="../api/">API</a>
+	    </li>
+          
+        </ul>
+      </div>
+      &nbsp;
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" role="navigation" aria-label="top navigation">
+        <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+        <a href="..">Health Services Platform (HSP) Marketplace</a>
+      </nav>
+
+      
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          <div role="navigation" aria-label="breadcrumbs navigation">
+  <ul class="wy-breadcrumbs">
+    <li><a href="..">Docs</a> &raquo;</li>
+    
+      
+    
+    <li>Executive Summary</li>
+    <li class="wy-breadcrumbs-aside">
+      
+    </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main">
+            <div class="section">
+              
+                <h1 id="a-call-for-executable-service-portability">A Call For Executable Service Portability</h1>
+<p>Products deployed in an enterprise architecture are constituent building blocks in a larger information technology (IT) ecosystem. The deployment and runtime characteristics of each individual building block as well as underlying infrastructure naturally vary greatly across organizations, requiring each service deployment to be further tailored to local IT needs. The process of doing so also varies to a high degree, and is generally considered a normal part of “implementation time” and total cost of ownership (TCO) calculations for incorporating a new service into the enterprise. This lack of infrastructural pre-coordination can result in extremely long IT implementation cycles for any capability to be added to, or changed within, an architecture, especially when underlying infrastructure is completely proprietary to the local institution and/or vendor platform. Burdens of local implementation are confounded by the rise of interest in portable declarative clinical knowledge such as HL7 CDS Knowledge Artifacts and Fast Healthcare Interoperability Resources (FHIR) Clinical Reasoning, as well as libraries of directly executable clinical knowledge such as HL7 Clinical Quality Language (CQL). Any potential reduction to time spent in discovery, evaluation, update, and other changes to enterprise service oriented architectures (SOAs) – thereby increasing the agility of the organization -- is of great interest to the HIT community. For organizations willing to pre-coordinate choice aspects of service execution itself, direct savings could be substantial. The Marketplace API specification serves as a building block for orchestrating the exchange of such services and executable knowledge.</p>
+<p>Newer and upcoming service standards, notably FHIR, FHIR-relevant implementation guidance (e.g. Substitutable Medical Applications Reusable Technologies or “SMART-on-FHIR”), and Clinical Decision Support Hooks (CDS Hooks), present several double-edged swords to health IT (HIT). The ability to decouple standard-based UIs from data authorities allows for greatly flexibility and removes reliance on point-to-point negotiations, thereby allowing application developers to create apps based on common, open APIs.</p>
+<p>At the same time, this risks explosive growth in integration complications due to the combinatorics of point-to-point connections required to dynamically offer applications over heterogenous networks. There are many tradeoffs in the continuum between monolithic and microservice architectural principles, and the exponential increase in potential touch points in highly decoupled architectures is not to be discounted. Further, deployment cycles of ISVs rarely align with the maintenance and support capabilities of production environments, often resulting in update delays from years to decades while program managers batch changes from many vendor systems into periodic internal rollouts. Implementations of the Marketplace specification aim to lower these burdens by introducing a capability of service “injection”: changing deployed services and knowledge executables within live environments using principles of continuous deployment and delivery.</p>
+<p>Pertaining to FHIR-oriented specifications such as SMART and CDS Hooks, consideration must be paid to the ability of providers to run traditional on-premise SOA environments. Provider IT groups are already well familiar with the benefits of cloud IaaS, but are also unable to leverage it to boundless degree. A SMART UI, for example, may need to be hosted locally due to VPN, DNS, or content filtering restrictions at the network level. Similarly, a CDS Hooks service may not be permitted to execute over the public Internet as a security policy, lack of suitable service level agreement (SLA), or infinite number of other concerns raised by enterprise IT. In a future full of commoditized HIT services, the ability to exchange service implementations themselves is likely to be critical in scaling the ability to support them.</p>
+<p>These benefits, however, are not limited to service specifications. HL7’s investment in knowledge representation using CDS Knowledge Artifacts codifies the ability to represent executable queries, but does not venture into the realm of being able to exchange any derived executables (or other runtime artifacts) interoperably. The Marketplace specification aims to provide a critical-path building block for doing so.</p>
+              
+            </div>
+          </div>
+          <footer>
+  
+    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
+      
+        <a href="../CoreConcepts/" class="btn btn-neutral float-right" title="Core Concepts">Next <span class="icon icon-circle-arrow-right"></span></a>
+      
+      
+        <a href="../license/" class="btn btn-neutral" title="License Information"><span class="icon icon-circle-arrow-left"></span> Previous</a>
+      
+    </div>
+  
+
+  <hr/>
+
+  <div role="contentinfo">
+    <!-- Copyright etc -->
+    
+  </div>
+
+  Built with <a href="http://www.mkdocs.org">MkDocs</a> using a <a href="https://github.com/snide/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>.
+</footer>
+      
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+
+  <div class="rst-versions" role="note" style="cursor: pointer">
+    <span class="rst-current-version" data-toggle="rst-current-version">
+      
+      
+        <span><a href="../license/" style="color: #fcfcfc;">&laquo; Previous</a></span>
+      
+      
+        <span style="margin-left: 15px"><a href="../CoreConcepts/" style="color: #fcfcfc">Next &raquo;</a></span>
+      
+    </span>
+</div>
+    <script>var base_url = '..';</script>
+    <script src="../js/theme.js" defer></script>
+      <script src="../search/main.js" defer></script>
+
+</body>
+</html>

@@ -1,0 +1,341 @@
+<!DOCTYPE html>
+<!--[if IE 8]><html class="no-js lt-ie9" lang="en" > <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en" > <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  
+  <link rel="shortcut icon" href="../img/favicon.ico">
+  <title>Functional Infrastructure Model - Health Services Platform (HSP) Marketplace</title>
+  <link href='https://fonts.googleapis.com/css?family=Lato:400,700|Roboto+Slab:400,700|Inconsolata:400,700' rel='stylesheet' type='text/css'>
+
+  <link rel="stylesheet" href="../css/theme.css" type="text/css" />
+  <link rel="stylesheet" href="../css/theme_extra.css" type="text/css" />
+  <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/github.min.css">
+  
+  <script>
+    // Current page data
+    var mkdocs_page_name = "Functional Infrastructure Model";
+    var mkdocs_page_input_path = "FunctionalInfrastructureModel.md";
+    var mkdocs_page_url = null;
+  </script>
+  
+  <script src="../js/jquery-2.1.1.min.js" defer></script>
+  <script src="../js/modernizr-2.8.3.min.js" defer></script>
+  <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js"></script>
+  <script>hljs.initHighlightingOnLoad();</script> 
+  
+</head>
+
+<body class="wy-body-for-nav" role="document">
+
+  <div class="wy-grid-for-nav">
+
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side stickynav">
+      <div class="wy-side-nav-search">
+        <a href=".." class="icon icon-home"> Health Services Platform (HSP) Marketplace</a>
+        <div role="search">
+  <form id ="rtd-search-form" class="wy-form" action="../search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" title="Type search term here" />
+  </form>
+</div>
+      </div>
+
+      <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+	<ul class="current">
+	  
+          
+            <li class="toctree-l1">
+		
+    <a class="" href="..">Health Services Platform (HSP) Marketplace</a>
+	    </li>
+          
+            <li class="toctree-l1">
+		
+    <a class="" href="../license/">License Information</a>
+	    </li>
+          
+            <li class="toctree-l1">
+		
+    <a class="" href="../ExecutiveSummary/">Executive Summary</a>
+	    </li>
+          
+            <li class="toctree-l1">
+		
+    <a class="" href="../CoreConcepts/">Core Concepts</a>
+	    </li>
+          
+            <li class="toctree-l1">
+		
+    <a class="" href="../DigitalRightsManagement/">Digital Rights Management</a>
+	    </li>
+          
+            <li class="toctree-l1 current">
+		
+    <a class="current" href="./">Functional Infrastructure Model</a>
+    <ul class="subnav">
+            
+    <li class="toctree-l2"><a href="#functional-infrastructural-model">Functional Infrastructural Model</a></li>
+    
+        <ul>
+        
+            <li><a class="toctree-l3" href="#what-is-a-health-product">What is a “Health Product”?</a></li>
+        
+            <li><a class="toctree-l3" href="#health-services-should-be">Health Services SHOULD be:</a></li>
+        
+            <li><a class="toctree-l3" href="#health-services-should-not-be">Health Services SHOULD NOT be:</a></li>
+        
+            <li><a class="toctree-l3" href="#health-products-build-and-packaging">Health Products Build and Packaging</a></li>
+        
+        </ul>
+    
+
+    <li class="toctree-l2"><a href="#what-is-a-compatible-platform">What is a compatible “Platform”?</a></li>
+    
+        <ul>
+        
+            <li><a class="toctree-l3" href="#capabilities">Capabilities</a></li>
+        
+            <li><a class="toctree-l3" href="#example-on-premise-platform-environment">Example on-premise Platform environment</a></li>
+        
+            <li><a class="toctree-l3" href="#cloud-based-platform-implementation-using-amazon-web-services">Cloud-based Platform implementation using Amazon Web Services.</a></li>
+        
+        </ul>
+    
+
+    </ul>
+	    </li>
+          
+            <li class="toctree-l1">
+		
+    <a class="" href="../referenceimplementation/">Reference implementation</a>
+	    </li>
+          
+            <li class="toctree-l1">
+		
+    <a class="" href="../referenceStandards/">Standards</a>
+	    </li>
+          
+            <li class="toctree-l1">
+		
+    <a class="" href="../modelquickreference/">Model Quck Reference</a>
+	    </li>
+          
+            <li class="toctree-l1">
+		
+    <a class="" href="../api/">API</a>
+	    </li>
+          
+        </ul>
+      </div>
+      &nbsp;
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" role="navigation" aria-label="top navigation">
+        <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+        <a href="..">Health Services Platform (HSP) Marketplace</a>
+      </nav>
+
+      
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          <div role="navigation" aria-label="breadcrumbs navigation">
+  <ul class="wy-breadcrumbs">
+    <li><a href="..">Docs</a> &raquo;</li>
+    
+      
+    
+    <li>Functional Infrastructure Model</li>
+    <li class="wy-breadcrumbs-aside">
+      
+    </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main">
+            <div class="section">
+              
+                <h1 id="functional-infrastructural-model">Functional Infrastructural Model</h1>
+<p>The Marketplace specification aims to ease service deployment woes in an infrastructure-neutral manner, not complicate them, and acknowledges organizations tend to run services in a combination of:</p>
+<ul>
+<li>
+<p>Locally-provisioned, co-located, and managed VMs using on-premise IaaS tools</p>
+</li>
+<li>
+<p>Bare metal machines and appliances for one-off use cases and legacy needs</p>
+</li>
+<li>
+<p>Cloud services such as Amazon Web Service, Microsoft Azure, and Google Cloud</p>
+</li>
+</ul>
+<p>To make automated health Product provisioning possible, all Products MUST meet a set of interoperability criteria prior to being published in the Marketplace that may be validated automatically. The Marketplace API, at the specification level, does not and should not make infrastructure mandates; however, to leverage HL7 Marketplace implementations to the greatest extent, a number of local Platform requirements SHOULD be met. A compatible Health Services Platform conceptually unifies three areas of an IT architecture:</p>
+<ul>
+<li>
+<p>Packaging - How individual service builds are produced by independent software vendors (ISVs) and consumed by IT groups.</p>
+</li>
+<li>
+<p>Curation - Definition and announcement of a service build’s capabilities and dependencies.</p>
+</li>
+<li>
+<p>Orchestration - Automated service dependency resolution and deployment into the local IT architecture.</p>
+</li>
+</ul>
+<h2 id="what-is-a-health-product">What is a “Health Product”?</h2>
+<p>The name “Health Services Platform Marketplace” was chosen to imply that a formal definition of a service (“Product”) is the focal currency of an implementation. It is thus necessary to provide criteria for what does/does not constitute a Product in the Service Functional Model (SFM) prior to defining the Marketplace API.
+Products are declared to the Marketplace via a client such as the reference web UI, other compatible application, or script. Each “Product” instance is primarily a metadata declaration of human-readable fields, and references 0..* Builds that in turn point to versioned, executable images. These Builds – or more accurately the remote images they point to – are the meat of what is programmatically bootstrapped into a Platform environment and MAY be subject to additional validation per policies defined by the Marketplace operator, and based on declared capabilities.</p>
+<h2 id="health-services-should-be">Health Services SHOULD be:</h2>
+<ul>
+<li>
+<p><strong>SSO Aware</strong> using OpenID Connect and/or SAML 2.0. If a service requires user logins, it should be declared as needing an SSO IDP such that configuration can be provided at run-time.</p>
+</li>
+<li>
+<p><strong>Provisionable</strong> via IETF SCIM 2 API implementations for individual and batch user and group management. This is a computing standard supported by ActiveDirectory and other identity management systems for synchronization of User and Group records.</p>
+</li>
+<li>
+<p><strong>Profilable</strong> supporting traceability across the architecture independent of programming language, including tracking of user session context across services for comprehensive system benchmarking (e.g. OpenTracing).</p>
+</li>
+<li>
+<p><strong>Incorruptible</strong> in the event they are killed without notice.</p>
+</li>
+<li>
+<p><strong>Offline-friendly</strong> to environments where no Internet access is permitted, or is subject to quality of service disruptions.</p>
+</li>
+</ul>
+<h2 id="health-services-should-not-be">Health Services SHOULD NOT be:</h2>
+<ul>
+<li>
+<p><strong>Data payloads</strong> While nothing prevents using a Marketplace for data distribution, service build images are intended to be used for executable materials. (Consider this a guideline that MAY change in the future.) Large data files SHOULD NOT be bundled into software images. Rather, container initialization steps should be implemented that download requisite data or pull them from a configured database.</p>
+</li>
+<li>
+<p><strong>Hardware dependent</strong> This is software that requires specific physical daughter cards, dongles, GPUs, CPU serial numbers etc. Platforms have no assumed means of binding to hardware dependencies. Future extension to image metadata MAY need to make special considerations, however, for frameworks such as OpenCL that aggregate underlying GPU hardware into abstract interfaces. This is currently a matter for future consideration due to differing hardware “passthrough” approaches across environments.</p>
+</li>
+</ul>
+<h2 id="health-products-build-and-packaging">Health Products Build and Packaging</h2>
+<h3 id="health-products-builds-and-package-must-be">Health Products builds and package must be:</h3>
+<ol>
+<li>
+<p><strong>Containerized</strong> into a single, OCI-compatible image. Docker Community Edition has been used as the gold standard and runtime verification tool and is recommended, but is not required.</p>
+</li>
+<li>
+<p><strong>Ephemeral</strong>. All persistent data must be saved to an external database and declared as a service dependency, if needed.</p>
+</li>
+<li>
+<p><strong>Injected with configuration</strong> All configuration information, including database connection URLs, secret keys, DNS names, base URLs etc MUST be read from runtime environment variables or autodetected according to Twelve Factor1 principles. ISVs therefore MUST NOT “bake in” files intended to be manually edited by a system administrator, as no such hand editing is guaranteed in a Platform environment. Configuration variable names MUST ONLY be formed from uppercase A-Z, 0-9 numeric, and underscore ‘_’ characters. Values are always strings. (Lowercase is not permitted due to some environments performing configuration resolution using case-insensitive DNS mechanisms.)</p>
+</li>
+<li>
+<p><strong>Programmatically validates</strong> Products declaring standard-compliant capabilities MUST support a mode for exercising declared APIs via a "smoke test" suite that MAY be triggered via a Marketplace itself. Product submissions failing to pass smoke tests on declared capabilities SHOULD be automatically rejected by the operator. Further, ISVs, operators, validators, end users, etc. SHOULD be able to trigger the same smoke test suite if/when they so choose. Operators MAY provide such test harnesses at their discretion. ISV tests specific to a Product or version SHOULD always be run as an out-of-band activity prior to submission to a Marketplace. Marketplace operators MAY elect to charge ISVs for additional testing and validation procedures at the discretion of the operator.</p>
+</li>
+<li>
+<p><strong>Horizontally scaled</strong> The number of existing containers SHALL be constrained by the Configuration profile submitted by the vendor, at the discretion of the target Platform within defined constraints.</p>
+</li>
+<li>
+<p><strong>Dynamically scalable</strong> Instances are scaled up/down at any time within the limits of the declared Configuration Task minimum/maximum values. Note: For HTTP services, the use of sticky sessions MUST NOT be used, in favor of JWTs or similar lightweight, non-sticky tracking for session state data, when needed.</p>
+</li>
+<li>
+<p><strong>Single entry process</strong> per Configuration profile Task. If a Product Build requires, for example, the image to be run once as a web service and again as a separate worker node, these alternate entry points should be declared as distinct Tasks within the default Configuration at publication time.</p>
+</li>
+<li>
+<p><strong>Domain name (DNS) agnostic</strong> Domain name, SSL/TLS context, and locale-specific settings MUST NOT be hardcoded into a Product Build. Configuration is always either injected at runtime or determined automatically, as can be done with HTTP-based Products.</p>
+</li>
+<li>
+<p><strong>Unencrypted</strong> HTTP Products MUST assume that transport encryption is handled at a separate layer. SSL/TLS and reverse proxy load balancing is the responsibility of a target Platform, not the Product Build.</p>
+</li>
+<li>
+<p><strong>Compute constrained</strong> Images must define the maximum per-task RAM requirement at image publication time, and manage use of memory internally to prevent exceeding this boundary. Platforms MUST guarantee that these resources will be available, even if overprovisioning virtual environments, and MAY reactively kill Products violating declared constraints.</p>
+</li>
+<li>
+<p><strong>x86-64</strong>. 32-bit binaries are also allowed, but other CPU architectures are not currently supported.</p>
+</li>
+<li>
+<p><strong>Self-bootstrapped</strong> Every image MUST be able to bootstrap itself into a functional, default state with zero human intervention. This is assumed at publication time and is used for service validation, local consumer evaluation testing, and for seeding production deployments. Products MUST therefore set up any database schema and perform forward migrations automatically without user intervention at deployment, but MAY operate in limited capacity until out-of-band configuration is performed. This is the intended means for activating proprietary licensing schemes.</p>
+</li>
+<li>
+<p><strong>Stoppable</strong> at container shutdown time within 10 seconds.</p>
+</li>
+<li>
+<p><strong>Good citizens</strong> executing in good faith that they do exactly what they say within the environment (e.g. disclosure of operations being performed, data being stored etc), and do not perform other operations that would not be reasonably expected by a Platform operator.</p>
+</li>
+<li>
+<p><strong>Traceable</strong> Health via process monitoring internal to the container should support prevailing standards of practice for the applicable software language/framework in use.</p>
+</li>
+<li>
+<p><strong>Logged</strong> Products MUST log to standard out/error, and MUST NOT be written to the file system. PHI/PII MAY be logged but SHOULD be toggle-able by the local administrator via injected configuration flags.</p>
+</li>
+</ol>
+<h1 id="_1"></h1>
+<h2 id="what-is-a-compatible-platform">What is a compatible “Platform”?</h2>
+<p>A Health Services Platform is any infrastructural fabric capable of running service containers packaged distributed according to Marketplace requirements and compatible with the Service Functional Model (SFM). Due to the close relationship between Marketplace functions and Platform capabilities they are two sides of the same coin, though there is no presumption of a “Platform API”. While a Platform MAY fully operate without any automated Marketplace integration, and vice versa, doing so limits the potential of automating deployment of knowledge-based (and traditional) services acquired from external parties.
+A Platform specification is not a strict specification, per se, but a profile of how to use existing technologies in an interoperable way. This is necessary because enterprise IT environments already have strategic directions on how core virtualization infrastructure is managed, and a prescriptive enterprise architecture strictly prohibiting deviations would not make traction in existing real-world organizations.</p>
+<h3 id="capabilities">Capabilities</h3>
+<p>A Platform is fundamentally three things. A(n):
+1. Cluster of servers capable of running arbitrary Product packages according to Marketplace specifications, at minimum.
+2. Orchestration framework of some form for fine-grained management of running services after initial deployment.
+3. Optional agent synchronizing state changes made by 0..N authorized Marketplaces with the target state of the orchestration controller software.</p>
+<p>In the exemplar reference implementation discussed in Supplementary Reference Implementation, these capabilities are provided as follows:</p>
+<ol>
+<li>A horizontal set of virtual machines running Ubuntu Linux with Docker Community Edition.</li>
+<li>Out-of-the-box Docker Swarm with Rancher and Portainer.</li>
+<li>A minimalistic proof-of-concept agent listening for changes to the Marketplace-managed target Platform state, capable of initializing new service instances when an event is sent to the local Agent via push notification.</li>
+</ol>
+<p><em>Note that these supplemental materials are NOT part of the specification and are provided for convenience and further information. An example of fictitious on-premise Platform implementation is illustrated in Figure 1, below.</em></p>
+<h3 id="example-on-premise-platform-environment">Example on-premise Platform environment</h3>
+<p><img alt="Example on-premise Platform environment" src="../Image1.png" title="Example on-premise Platform environment" /></p>
+<p>Note that while the reference implementation uses Docker, it intentionally refrains from using all proprietary functions. Real-world implementations should choose a mainstream management system if not already present.
+For Platform environments implemented using cloud resources, Figure 2 illustrates an equally compatible architecture using market-leading Amazon Web Services.2</p>
+<h3 id="cloud-based-platform-implementation-using-amazon-web-services">Cloud-based Platform implementation using Amazon Web Services.</h3>
+<p><img alt="Cloud-based Platform implementation using Amazon Web Services" src="../Image2.png" title="Cloud-based Platform implementation using Amazon Web Services" /></p>
+              
+            </div>
+          </div>
+          <footer>
+  
+    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
+      
+        <a href="../referenceimplementation/" class="btn btn-neutral float-right" title="Reference implementation">Next <span class="icon icon-circle-arrow-right"></span></a>
+      
+      
+        <a href="../DigitalRightsManagement/" class="btn btn-neutral" title="Digital Rights Management"><span class="icon icon-circle-arrow-left"></span> Previous</a>
+      
+    </div>
+  
+
+  <hr/>
+
+  <div role="contentinfo">
+    <!-- Copyright etc -->
+    
+  </div>
+
+  Built with <a href="http://www.mkdocs.org">MkDocs</a> using a <a href="https://github.com/snide/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>.
+</footer>
+      
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+
+  <div class="rst-versions" role="note" style="cursor: pointer">
+    <span class="rst-current-version" data-toggle="rst-current-version">
+      
+      
+        <span><a href="../DigitalRightsManagement/" style="color: #fcfcfc;">&laquo; Previous</a></span>
+      
+      
+        <span style="margin-left: 15px"><a href="../referenceimplementation/" style="color: #fcfcfc">Next &raquo;</a></span>
+      
+    </span>
+</div>
+    <script>var base_url = '..';</script>
+    <script src="../js/theme.js" defer></script>
+      <script src="../search/main.js" defer></script>
+
+</body>
+</html>

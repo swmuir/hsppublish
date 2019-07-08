@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<!--[if IE 8]><html class="no-js lt-ie9" lang="en" > <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en" > <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  
+  <link rel="shortcut icon" href="../img/favicon.ico">
+  <title>Model Quck Reference - Health Services Platform (HSP) Marketplace</title>
+  <link href='https://fonts.googleapis.com/css?family=Lato:400,700|Roboto+Slab:400,700|Inconsolata:400,700' rel='stylesheet' type='text/css'>
+
+  <link rel="stylesheet" href="../css/theme.css" type="text/css" />
+  <link rel="stylesheet" href="../css/theme_extra.css" type="text/css" />
+  <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/github.min.css">
+  
+  <script>
+    // Current page data
+    var mkdocs_page_name = "Model Quck Reference";
+    var mkdocs_page_input_path = "modelquickreference.md";
+    var mkdocs_page_url = null;
+  </script>
+  
+  <script src="../js/jquery-2.1.1.min.js" defer></script>
+  <script src="../js/modernizr-2.8.3.min.js" defer></script>
+  <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js"></script>
+  <script>hljs.initHighlightingOnLoad();</script> 
+  
+</head>
+
+<body class="wy-body-for-nav" role="document">
+
+  <div class="wy-grid-for-nav">
+
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side stickynav">
+      <div class="wy-side-nav-search">
+        <a href=".." class="icon icon-home"> Health Services Platform (HSP) Marketplace</a>
+        <div role="search">
+  <form id ="rtd-search-form" class="wy-form" action="../search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" title="Type search term here" />
+  </form>
+</div>
+      </div>
+
+      <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+	<ul class="current">
+	  
+          
+            <li class="toctree-l1">
+		
+    <a class="" href="..">Health Services Platform (HSP) Marketplace</a>
+	    </li>
+          
+            <li class="toctree-l1">
+		
+    <a class="" href="../license/">License Information</a>
+	    </li>
+          
+            <li class="toctree-l1">
+		
+    <a class="" href="../ExecutiveSummary/">Executive Summary</a>
+	    </li>
+          
+            <li class="toctree-l1">
+		
+    <a class="" href="../CoreConcepts/">Core Concepts</a>
+	    </li>
+          
+            <li class="toctree-l1">
+		
+    <a class="" href="../DigitalRightsManagement/">Digital Rights Management</a>
+	    </li>
+          
+            <li class="toctree-l1">
+		
+    <a class="" href="../FunctionalInfrastructureModel/">Functional Infrastructure Model</a>
+	    </li>
+          
+            <li class="toctree-l1">
+		
+    <a class="" href="../referenceimplementation/">Reference implementation</a>
+	    </li>
+          
+            <li class="toctree-l1">
+		
+    <a class="" href="../referenceStandards/">Standards</a>
+	    </li>
+          
+            <li class="toctree-l1 current">
+		
+    <a class="current" href="./">Model Quck Reference</a>
+    <ul class="subnav">
+            
+    </ul>
+	    </li>
+          
+            <li class="toctree-l1">
+		
+    <a class="" href="../api/">API</a>
+	    </li>
+          
+        </ul>
+      </div>
+      &nbsp;
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" role="navigation" aria-label="top navigation">
+        <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+        <a href="..">Health Services Platform (HSP) Marketplace</a>
+      </nav>
+
+      
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          <div role="navigation" aria-label="breadcrumbs navigation">
+  <ul class="wy-breadcrumbs">
+    <li><a href="..">Docs</a> &raquo;</li>
+    
+      
+    
+    <li>Model Quck Reference</li>
+    <li class="wy-breadcrumbs-aside">
+      
+    </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main">
+            <div class="section">
+              
+                <p>Model Quick Reference</p>
+<p>The following table provides a quick overview of all types supported by the Marketplace specification.</p>
+<table>
+<thead>
+<tr>
+<th>Type</th>
+<th align="left">Brief Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>IdentityProvider</td>
+<td align="left">Marketplace instance-level configuration parameters allowing user authentication against an external authority using OpenID Connect authentication flows.</td>
+</tr>
+<tr>
+<td>User</td>
+<td align="left">A distinct person or system with some degree of access or interest to a Marketplace instance.</td>
+</tr>
+<tr>
+<td>(User) Identity</td>
+<td align="left">IdentityProvider-specific information pertaining to a given User.</td>
+</tr>
+<tr>
+<td>(User) Platform</td>
+<td align="left">Declaration of a compatible external Service runtime environment maintained by the User.</td>
+</tr>
+<tr>
+<td>Group</td>
+<td align="left">A named collection of Users for purposes of batch Role assignment.</td>
+</tr>
+<tr>
+<td>(Group) Member</td>
+<td align="left">Essentially a “join” record signifying a given User’s placement within a Group.</td>
+</tr>
+<tr>
+<td>Role</td>
+<td align="left">A named set of permissions.</td>
+</tr>
+<tr>
+<td>(Role) Appointment</td>
+<td align="left">The granting of a single Role to a single User or Group. (It is a polymorphic type.)</td>
+</tr>
+<tr>
+<td>JsonWebToken</td>
+<td align="left">An RFC 7519 JSON Web Token issued to permit access by a given Identity to a Marketplace instance as a bearer token.</td>
+</tr>
+<tr>
+<td>License</td>
+<td align="left">A known software or content license type, required to create Service records.</td>
+</tr>
+<tr>
+<td>Service</td>
+<td align="left">Declaration of a Platform-compatible executable in the form of key metadata. Does not directly provide a reference to an executable image.</td>
+</tr>
+<tr>
+<td>(Service) Screenshot</td>
+<td align="left">Optional graphical images for illustrating Service features to Users.</td>
+</tr>
+<tr>
+<td>(Service) Build</td>
+<td align="left">Defines the reference to a specific versioned image of a given Service. Images must be hosted such that the Marketplace and its Users have read-only network access, at minimum.</td>
+</tr>
+<tr>
+<td>(Service Build) Dependency</td>
+<td align="left">Known dependencies that are needed to run a given Build of a service.</td>
+</tr>
+<tr>
+<td>(Service Build) Exposure</td>
+<td align="left">The standardized Interfaces capabilities provided by a given Service Build.</td>
+</tr>
+<tr>
+<td>(Service Build Exposure) Parameter</td>
+<td align="left">States that configuration parameter of the given name is required at runtime to successfully provide the Interface of the Exposure.</td>
+</tr>
+<tr>
+<td>(Service Build) Configuration</td>
+<td align="left">The runtime constraints of a Build that need to be known by a Platform for execution.</td>
+</tr>
+<tr>
+<td>(Service Build Configuration) Task</td>
+<td align="left">A container entry point and associated constraints that must be run as part of a Configuration profile.</td>
+</tr>
+<tr>
+<td>Interface</td>
+<td align="left">Marketplace-wide declaration of a standardized – or at least conventionalized – computational integration point. They are not constraints to HL7 standards.</td>
+</tr>
+<tr>
+<td>(Interface) Surrogate</td>
+<td align="left">Marketplace-wide statement that the referenced substitute Interface provides compatible capabilities of the given base Interface. Useful for defining new versions of an Interface that are backwards compatible with older versions.</td>
+</tr>
+</tbody>
+</table>
+              
+            </div>
+          </div>
+          <footer>
+  
+    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
+      
+        <a href="../api/" class="btn btn-neutral float-right" title="API">Next <span class="icon icon-circle-arrow-right"></span></a>
+      
+      
+        <a href="../referenceStandards/" class="btn btn-neutral" title="Standards"><span class="icon icon-circle-arrow-left"></span> Previous</a>
+      
+    </div>
+  
+
+  <hr/>
+
+  <div role="contentinfo">
+    <!-- Copyright etc -->
+    
+  </div>
+
+  Built with <a href="http://www.mkdocs.org">MkDocs</a> using a <a href="https://github.com/snide/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>.
+</footer>
+      
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+
+  <div class="rst-versions" role="note" style="cursor: pointer">
+    <span class="rst-current-version" data-toggle="rst-current-version">
+      
+      
+        <span><a href="../referenceStandards/" style="color: #fcfcfc;">&laquo; Previous</a></span>
+      
+      
+        <span style="margin-left: 15px"><a href="../api/" style="color: #fcfcfc">Next &raquo;</a></span>
+      
+    </span>
+</div>
+    <script>var base_url = '..';</script>
+    <script src="../js/theme.js" defer></script>
+      <script src="../search/main.js" defer></script>
+
+</body>
+</html>
